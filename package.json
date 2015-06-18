@@ -1,7 +1,7 @@
 {
-  "name": "ledarray-ui",
-  "version": "1.0.0",
-  "description": "interface with an ndarray of leds",
+  "name": "ledgrid-ui",
+  "version": "0.0.0",
+  "description": "interface with a grid of leds",
   "main": "lib/index.js",
   "scripts": {
     "start": "budo example.js -o bundle.js --live",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/livejs/ledarray-ui"
+    "url": "https://github.com/ahdinosaur/ledgrid-ui"
   },
-  "author": "livejs",
+  "author": "ahdinosaur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/livejs/ledarray-ui/issues"
+    "url": "https://github.com/ahdinosaur/ledgrid-ui/issues"
   },
-  "homepage": "https://github.com/livejs/ledarray-ui",
+  "homepage": "https://github.com/ahdinosaur/ledgrid-ui",
   "dependencies": {
     "lodash.chunk": "^3.0.0",
     "lodash.take": "^3.0.0",

@@ -1,15 +1,15 @@
 
-# ledarray-ui
+# ledgrid-ui
 
-interface with an ndarray of leds
+interface with an grid of leds
 
 ## how
 
 ### install
 
 ```
-git clone https://github.com/livejs/ledarray-ui
-cd 
+git clone https://github.com/ahdinosaur/ledgrid-ui
+cd ledgrid-ui
 npm install
 ```
 
