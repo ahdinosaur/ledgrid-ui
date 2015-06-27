@@ -7,7 +7,8 @@
     "start": "budo example.js -o bundle.js --live --port 5000",
     "build": "browserify example.js -o bundle.js -g uglifyify",
     "test": "run-browser test/* -b",
-    "deploy": "gh-pages-deploy"
+    "gh-pages": "gh-pages -d . -s '*'",
+    "deploy": "(export NODE_ENV=production; npm run build && npm run gh-pages)"
   },
   "browserify": {
     "transform": []
@@ -37,7 +38,7 @@
   "devDependencies": {
     "browserify": "^9.0.7",
     "budo": "^2.1.3",
-    "gh-pages-deploy": "^0.3.0",
+    "gh-pages": "^0.3.0",
     "lodash.range": "^3.0.0",
     "rainbow-pixels": "git://github.com/ahdinosaur/rainbow-pixels",
     "react-render-stream": "git://github.com/ahdinosaur/react-render-stream",
