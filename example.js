@@ -25,7 +25,7 @@ rainbowPixels({
   shape: [32, 16],
   inc: 1
 })
-.pipe(reactRenderStream({
-  Component: LedGridUI,
-  element: main
-}))
+.pipe(reactRenderStream(
+  LedGridUI,
+  main
+))
